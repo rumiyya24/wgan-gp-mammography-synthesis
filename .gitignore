@@ -1,0 +1,22 @@
+# Datasets & large derived outputs - not part of the code repo
+InBreast_Aligned_Images/
+sobel_edges_real/
+
+# Model checkpoints - too large, available on request
+checkpoint_D_epoch_500-10.*
+checkpoint_G_epoch_500-10.*
+turing_test_app/*.h5
+turing_test_app/*.pth
+
+# Sensitive / private files
+turing_test_app/user_results.csv
+turing_test_app/kaggle/
+
+# Python / environment junk
+turing_test_app/.venv/
+turing_test_app/.idea/
+__pycache__/
+*.pyc
+
+# OS junk
+.DS_Store
