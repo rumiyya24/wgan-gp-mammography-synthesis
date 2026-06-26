@@ -5,16 +5,16 @@ sobel_edges_real/
 # Model checkpoints - too large, available on request
 checkpoint_D_epoch_500-10.*
 checkpoint_G_epoch_500-10.*
-turing_test_app/*.h5
-turing_test_app/*.pth
+human_evaluation_app/*.h5
+human_evaluation_app/*.pth
 
 # Sensitive / private files
-turing_test_app/user_results.csv
-turing_test_app/kaggle/
+human_evaluation_app/user_results.csv
+human_evaluation_app/kaggle/
 
 # Python / environment junk
-turing_test_app/.venv/
-turing_test_app/.idea/
+human_evaluation_app/.venv/
+human_evaluation_app/.idea/
 __pycache__/
 *.pyc
 
