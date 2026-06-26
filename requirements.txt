@@ -1,0 +1,10 @@
+tensorflow>=2.12
+torch>=2.0
+numpy
+pandas
+matplotlib
+scikit-image
+opencv-python
+Pillow
+scipy
+streamlit
