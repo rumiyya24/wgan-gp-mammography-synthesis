@@ -2,7 +2,7 @@
 
 A lightweight Wasserstein GAN with Gradient Penalty (WGAN-GP) for generating synthetic mammograms, built without attention mechanisms, progressive growing, or style modulation. The goal is to test how much image quality a deliberately simple architecture can reach — and whether that's good enough for applications like medical education, algorithm stress-testing, and rare-pathology simulation, where full diagnostic-grade realism isn't required.
 
-This repository contains the training/preprocessing/evaluation notebooks, sample outputs, and the human-evaluation ("Turing test") application used in the accompanying paper.
+This repository contains the training/preprocessing/evaluation notebooks, sample outputs, and the human evaluation application used in the accompanying paper.
 
 ## Why a simple architecture?
 
@@ -35,7 +35,7 @@ Full methodology, ablations, and discussion are in the paper (see [Citation](#ci
 ├── denoising_samples/
 │   ├── bm3d_denoised_images/        # BM3D-denoised generator outputs
 │   └── nlm_denoised_images/         # NLM-denoised generator outputs
-├── turing_test_app/
+├── human_evaluation_app/
 │   ├── app.py                       # Human-evaluation ("Turing test") application
 │   ├── mi_results.txt               # Raw per-case results, one evaluator
 │   └── test_results.txt             # Raw per-case results, another evaluator
@@ -59,7 +59,7 @@ Trained checkpoints (generator and discriminator, both TensorFlow and PyTorch ve
 
 1. Obtain CBIS-DDSM and RSNA datasets (see above) and place them according to the paths expected in `notebooks/01_preprocessing.ipynb`.
 2. Run notebooks in order: preprocessing → training → evaluation.
-3. To explore the human-evaluation tool, see `turing_test_app/app.py`.
+3. To explore the human-evaluation tool, see `human_evaluation_app/app.py`.
 
 Install dependencies with:
 
