@@ -1,6 +1,0 @@
-Case 1: Correct, Time: 2.47s
-Case 2: Wrong, Time: 7.69s
-Case 3: Wrong, Time: 2.52s
-Case 4: Correct, Time: 1.86s
-Case 5: Correct, Time: 2.69s
-Case 6: Wrong, Time: 4.33s
