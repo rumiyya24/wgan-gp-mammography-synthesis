@@ -2,7 +2,7 @@
 
 A lightweight Wasserstein GAN with Gradient Penalty (WGAN-GP) for generating synthetic mammograms, built without attention mechanisms, progressive growing, or style modulation. The goal is to test how much image quality a deliberately simple architecture can reach — and whether that's good enough for applications like medical education, algorithm stress-testing, and rare-pathology simulation, where full diagnostic-grade realism isn't required.
 
-This repository contains the training/preprocessing/evaluation notebooks, sample outputs, and the human evaluation application used in the accompanying paper.
+This repository contains the training/preprocessing/evaluation notebooks, sample outputs, and the human evaluation application used.
 
 ## Why a simple architecture?
 
@@ -79,8 +79,8 @@ See the paper for full architectural and training details.
 
 - This model is for **non-diagnostic use only** (education, algorithm robustness testing, rare-case simulation). It has not been validated for training production diagnostic systems.
 - Unconditional generation means specific pathology subtypes can't be requested on demand.
-- Synthetic medical images carry real risks of misuse (e.g., fraudulent use in research/regulatory submissions) and of amplifying biases present in the training data. See the paper's ethics discussion for more detail.
-
+- Synthetic medical images carry real risks of misuse (e.g., fraudulent use in research/regulatory submissions) and of amplifying biases present in the training data.
+  
 ## Citation
 
 If you use this work, please cite the accompanying paper. (Citation details to be added once published — check back here or open an issue if you need a pre-publication reference.)
